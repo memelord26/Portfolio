@@ -9,12 +9,12 @@ export const AboutSection = () => {
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
-                        <h3 className="text-2xl font-semibold">Passionate Web Developer</h3>
+                        <h3 className="text-2xl font-semibold">Passionate Developer</h3>
                         <p className="text-muted-foreground">
-                            Description with years of experience
+                            My experience at SSMC optimizing wafer handling and creating Excel macros strengthened my technical problem-solving skills. At IT Block, customer support and security reporting further developed my communication and service-oriented mindset.
                         </p>
                         <p className="text-muted-foreground">
-                            Description of passion
+                            Proficient in Python, C, and JavaScript, with strong experience in practical, hands-on development. Seeking opportunities that combine technical problem-solving with innovation and user-focused support.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-button"> Get In Touch </a>
@@ -30,7 +30,7 @@ export const AboutSection = () => {
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg"> Web Development </h4>
-                                    <p className="text-muted-foreground"> Some description </p>
+                                    <p className="text-muted-foreground"> Building responsive, user-friendly web applications with modern frameworks. </p>
                                 </div>
                             </div>
                         </div>
@@ -40,8 +40,8 @@ export const AboutSection = () => {
                                     <User className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Web Development </h4>
-                                    <p className="text-muted-foreground"> Some description </p>
+                                    <h4 className="font-semibold text-lg"> IoT Systems Development </h4>
+                                    <p className="text-muted-foreground"> Developing connected embedded and sensor-based systems for automation. </p>
                                 </div>
                             </div>
                         </div>
@@ -51,8 +51,8 @@ export const AboutSection = () => {
                                     <Briefcase className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Work experience </h4>
-                                    <p className="text-muted-foreground"> Some description </p>
+                                    <h4 className="font-semibold text-lg"> Project Management </h4>
+                                    <p className="text-muted-foreground"> Driving projects from initial concept to delivery with aglie methodologies. </p>
                                 </div>
                             </div>
                         </div>

@@ -12,8 +12,7 @@ export const HeroSection = () => {
                     </h1>
                     <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
                         An undergrad Computing Science student at SIT, driven by a passion for technology and its potential to make a difference. 
-                        Proficient in Python, C, and JavaScript, and have developed an Android app, which reflects my enthusiasm for hands-on projects. 
-                        Eager to find opportunities that align with my skills and passion for technology, particularly in roles focused on innovation and support.
+                        Eager to contribute my skills and enthusiasm to innovative projects and dynamic teams.
                     </p>
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
                         <a href="#projects" className="cosmic-button">
