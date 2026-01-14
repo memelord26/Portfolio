@@ -2,20 +2,47 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills =[
-    //Frontend
-    { name: "HTML/CSS", level: 95, category: "frontend" },
-    { name: "JavaScript", level: 90, category: "frontend" },
-    //backend
-    { name: "PostgreSQL", level: 80, category: "backend" },
-    //tools
-    { name: "Git/GitHub", level: 80, category: "tools" },
+    //programming languages
+    { name: "Python", level: 85, category: ["programming", "Database", "IoT/Embedded"] },
+    { name: "Java", level: 80, category: ["programming"] },
+    { name: "C", level: 75, category: ["programming", "IoT/Embedded"] },
+    { name: "C++", level: 70, category: ["programming"] },
+    { name: "C#", level: 70, category: ["programming"] },
+    { name: "JavaScript", level: 75, category: ["programming", "web/App"] },
+    { name: "Kotlin", level: 70, category: ["programming", "web/App"] },
+    { name: "SQL", level: 75, category: ["programming", "Database"] },
+    //web
+    { name: "HTML/CSS", level: 90, category: ["web/App"] },
+    { name: "React", level: 85, category: ["web/App"] },
+    { name: "REST APIs", level: 70, category: ["web/App"] },
+    { name: "Android Studio", level: 75, category: ["web/App"] },
+    //Database
+    { name: "PostgreSQL", level: 80, category: ["Database"] },
+    { name: "MongoDB", level: 70, category: ["Database"] },
+    { name: "NumPy", level: 65, category: ["Database"] },
+    { name: "Matplotlib", level: 65, category: ["Database"] },
+    { name: "Pandas", level: 65, category: ["Database"] },
+    //Automation & DevOps
+    { name: "UiPath (RPA)", level: 80, category: ["Automation & DevOps"] },
+    { name: "Excel VBA", level: 85, category: ["Automation & DevOps"] },
+    { name: "Git/GitHub", level: 90, category: ["Automation & DevOps", "web/App", "IoT/Embedded"] },
+    { name: "Docker", level: 65, category: ["Automation & DevOps"] },
+    { name: "Kubernetes", level: 65, category: ["Automation & DevOps"] },
+    { name: "AWS", level: 65, category: ["Automation & DevOps"] },
+    { name: "Linux", level: 70, category: ["Automation & DevOps"] },
+    //IoT/Embedded
+    { name: "Raspberry Pi", level: 75, category: ["IoT/Embedded"] },
+    { name: "Arduino", level: 70, category: ["IoT/Embedded"] },
+    { name: "MQTT", level: 70, category: ["IoT/Embedded"] },
+    { name: "ESP32s3", level: 65, category: ["IoT/Embedded"] },
+    { name: "PCB soldering & electronic components ", level: 75, category: ["IoT/Embedded"] },
 ];
 
-const categories =["all", "frontend", "backend", "tools"];
+const categories =["all", "programming", "web/App", "Database", "Automation & DevOps", "IoT/Embedded"];
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("all");
-    const filteredSkills = skills.filter((skill) => activeCategory === "all" || skill.category === activeCategory);
+    const filteredSkills = skills.filter((skill) => activeCategory === "all" || skill.category.includes(activeCategory));
     return (
         <section id="skills" className="py-24 px-4 relative bg-secondary/30">
             <div className="container mx-auto max-w-5xl">

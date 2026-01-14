@@ -1,32 +1,81 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
+    //uni
     {
         id: 1,
-        title: "TicTacToe",
-        description: "A tic tac toe game with multiple playing modes.",
-        image: "/projects/tictactoe.png",
-        tags: ["C", "AI/ML"],
-        demoUrl: "#",
-        githubUrl: "#"
-    },
-    {
-        id: 2,
-        title: "Multi-Protocol Sensor Network with Low-Power",
-        description: "A multi-protocol, fault-tolerant, and low-power sensor network for autonomous greenhouse management using the LilyGo T3 S3 ESP32-S3 platform. The primary objective is to enable continuous monitoring and maintenance of optimal greenhouse conditions with minimum manual intervention.",
+        title: "GroveNet",
+        description: "A multi-protocol, fault-tolerant, and low-power sensor network for autonomous greenhouse management using the LilyGo T3S3 dev board. The primary objective is to enable continuous monitoring and maintenance of optimal greenhouse conditions with minimum manual intervention.",
         image: "/projects/embed.png",
         tags: ["C", "IoT"],
         demoUrl: "#",
-        githubUrl: "#"
+        githubUrl: "https://github.com/c0dn/grovenet"
     },
     {
-        id: 3,
+        id: 2,
         title: "Hospital Care with MQTT",
         description: "A simple IoT project that helps save energey by having the lights and ventilation fan of a room on only when a person is detected. It also dispenses medication to patients with a simple mobile app according to their needs marked by a nurse or doctor.",
         image: "/projects/compnet.jpg",
         tags: ["Python", "RaspberryPi", "IoT"],
         demoUrl: "#",
         githubUrl: "#"
+    },
+    {
+        id: 3,
+        title: "TicTacToe",
+        description: "A tic tac toe game featuring multiple play modes, including classic single-player, local multiplayer, and a single-player mode against a machine learning opponent. The game includes a persistent score tracker to record wins and losses, and the ML opponent is trained on a fixed dataset to provide increasingly challenging and human-like moves while keeping gameplay predictable and fair.",
+        image: "/projects/tictactoe.png",
+        tags: ["C", "AI/ML"],
+        demoUrl: "https://youtu.be/x_T9Nw-mYz4",
+        githubUrl: "#"
+    },
+    //tp (RPA, Bus App, carrental?)
+    {
+        id: 4,
+        title: "Bus Timetable App",
+        description: "A bus timetable application that provides users with real-time information on bus schedules and arrival times. The app aims to enhance the commuting experience by offering accurate and up-to-date transit information.",
+        image: "/projects/busapp.png",
+        tags: ["Android Studios", "SQL", "PHP"],
+        demoUrl: "https://youtu.be/egDUeyIbyEU",
+        githubUrl: "#"
+    },
+    {
+        id: 5,
+        title: "Carousel Book Display Automation",
+        description: "Final year project developed for Temasek Polytechnic's library staff to automate their carousel book display process. The system scrapes book details from the library website, identifies books with available cover images, exports the data to an Excel spreadsheet, and sends an automated email notification upon completion.",
+        image: "/projects/rpa.png",
+        tags: ["UiPath Studio", "Web Scraping", "Email Automation (SMTP)"],
+        demoUrl: "https://youtu.be/7d-lXxA4yvI",
+        githubUrl: "#"
+    },
+    //ite (car park, hospital,)
+    {
+        id: 6,
+        title: "Smart Car Parking System",
+        description: "A smart car park system that utilizes IoT technology to monitor and manage parking spaces efficiently. The system provides real-time updates on available parking spots, enabling users to find parking quickly and reducing congestion.",
+        image: "/projects/carpark.png",
+        tags: ["Python", "RaspberryPi", "IoT"],
+        demoUrl: "https://www.youtube.com/watch?v=P8aI3vIsd9g",
+        githubUrl: "#"
+    },
+    {
+        id: 7,
+        title: "Hospital Automation",
+        description: "A smart hospital system that automates various tasks such as patient monitoring, medication dispensing, and environmental control using IoT devices. The system aims to improve patient care and operational efficiency within the hospital setting.",
+        image: "/projects/hospital.png",
+        tags: ["Python", "RaspberryPi", "C++", "Arduino",  "IoT"],
+        demoUrl: "https://www.youtube.com/watch?app=desktop&v=XvT4zGkShr4",
+        githubUrl: "#"
+    },
+    //self (tapestry bus)
+    {
+        id: 8,
+        title: "TapestryBus",
+        description: "Similar to the Bus Timetable App, but an improved version with more features and better UI/UX design. It is available online for free for the residents of the condo to easlily check the right timetables for the shuttle bus.",
+        image: "/projects/tapestrybus.png",
+        tags: ["React.js", "HTML/CSS", "APIs"],
+        demoUrl: "https://www.youtube.com/watch?app=desktop&v=XvT4zGkShr4",
+        githubUrl: "https://github.com/memelord26/TapestryBus"
     },
 ]
 
