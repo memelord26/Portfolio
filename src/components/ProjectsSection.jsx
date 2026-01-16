@@ -8,16 +8,16 @@ const projects = [
         description: "A multi-protocol, fault-tolerant, and low-power sensor network for autonomous greenhouse management using the LilyGo T3S3 dev board. The primary objective is to enable continuous monitoring and maintenance of optimal greenhouse conditions with minimum manual intervention.",
         image: "/projects/embed.png",
         tags: ["C", "IoT"],
-        demoUrl: "#",
+        demoUrl: "/Portfolio/projects/GroveNetReport.pdf",
         githubUrl: "https://github.com/c0dn/grovenet"
     },
     {
         id: 2,
-        title: "Hospital Care with MQTT",
+        title: "MediDrop",
         description: "A simple IoT project that helps save energey by having the lights and ventilation fan of a room on only when a person is detected. It also dispenses medication to patients with a simple mobile app according to their needs marked by a nurse or doctor.",
         image: "/projects/compnet.jpg",
         tags: ["Python", "RaspberryPi", "IoT"],
-        demoUrl: "#",
+        demoUrl: "https://youtu.be/tvQrEuqzRVs",
         githubUrl: "#"
     },
     {
@@ -74,7 +74,7 @@ const projects = [
         description: "Similar to the Bus Timetable App, but an improved version with more features and better UI/UX design. It is available online for free for the residents of the condo to easlily check the right timetables for the shuttle bus.",
         image: "/projects/tapestrybus.png",
         tags: ["React.js", "HTML/CSS", "APIs"],
-        demoUrl: "https://www.youtube.com/watch?app=desktop&v=XvT4zGkShr4",
+        demoUrl: "https://memelord26.github.io/TapestryBus/",
         githubUrl: "https://github.com/memelord26/TapestryBus"
     },
 ]
@@ -110,9 +110,11 @@ export const ProjectsSection = () => {
                                         <a href={project.demoUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                             <ExternalLink size={20}/> {/*Demo url*/}
                                         </a>
+                                        {/*
                                         <a href={project.githubUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
-                                            <Github size={20}/> {/*github url*/}
+                                            <Github size={20}/> github url
                                         </a>
+                                        */}
                                     </div>
                                 </div>
                             </div>
