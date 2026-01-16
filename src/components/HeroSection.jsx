@@ -11,7 +11,7 @@ export const HeroSection = () => {
                         <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Lau</span>
                     </h1>
                     <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        An undergrad Computing Science student at SIT, driven by a passion for technology and its potential to make a difference. 
+                        An undergrad Computing Science student at SIT | UofG, driven by a passion for technology and its potential to make a difference. 
                         Eager to contribute my skills and enthusiasm to innovative projects and dynamic teams.
                     </p>
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
